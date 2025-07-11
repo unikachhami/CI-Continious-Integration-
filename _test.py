@@ -21,8 +21,9 @@ def test_fifth():
     assert fifth(3) == 32,"Fifth of 3 is 243: Test Failed"
 
 def test_invalid_input():
-    with pytest.Falses("Type Error"):
+    with pytest.raises(TypeError):
         square('string')
+
 
 
 
