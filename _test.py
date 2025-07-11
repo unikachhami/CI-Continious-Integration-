@@ -18,7 +18,7 @@ def test_cube():
 
 def test_fifth():
     assert fifth(2) == 32,"Fifth of 2 is 32: Test Failed"
-    assert fifth(3) == 32,"Fifth of 3 is 243: Test Failed"
+    assert fifth(3) == 243,"Fifth of 3 is 243: Test Failed"
 
 def test_invalid_input():
     with pytest.raises(TypeError):
